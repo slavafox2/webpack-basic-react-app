@@ -14,3 +14,8 @@ npm install --save-dev autoprefixer
 npm install --save-dev url-loader
 
 npm install --save-dev file-loader
+
+...
+
+npm i --save-dev rimraf
+

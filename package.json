@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server --mode=development",
+    "build": "rimraf dist && webpack --mode=production",
+    "build2": "rimraf dist && webpack --mode=production --config webpack.prod.config.js --progress --profile --color"
   },
   "repository": {
     "type": "git",
